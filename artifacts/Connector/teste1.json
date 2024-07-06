@@ -1,0 +1,18 @@
+{
+	"id": "b0a96b0a-38e7-4b32-8dca-eb4d1987f1da",
+	"createdAt": "2024-06-28T10:02:36.795Z",
+	"createdBy": "admin",
+	"settings": {
+		"scriptSel": "80c8dabe-262a-4f1c-9cff-de019e364991",
+		"scriptRun": "5bc65e50-44f9-4474-ae68-64385180b5f8",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "teste1",
+	"description": null,
+	"group": null,
+	"type": "S",
+	"ver": "24.06.28.1202",
+	"disabled": false,
+	"package": "50513437-85ee-485a-8639-81b2c6ea9015"
+}

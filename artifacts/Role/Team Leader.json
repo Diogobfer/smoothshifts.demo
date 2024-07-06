@@ -1,0 +1,10 @@
+{
+	"id": "78e065f3-f6bb-4549-b9bf-1a8d5fa56f5c",
+	"createdAt": "2024-06-26T09:08:37.878Z",
+	"createdBy": "admin",
+	"name": "Team Leader",
+	"description": "The operator that manage the shifts ",
+	"ver": "24.06.26.1108",
+	"package": "50513437-85ee-485a-8639-81b2c6ea9015",
+	"acl": []
+}

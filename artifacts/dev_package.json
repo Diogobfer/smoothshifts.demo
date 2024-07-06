@@ -1,0 +1,156 @@
+{
+	"id": "50513437-85ee-485a-8639-81b2c6ea9015",
+	"createdAt": "2024-06-23T08:45:39.604Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/Diogobfer/smoothshifts.demo.git"
+	},
+	"name": "Smoothshifts",
+	"description": "Application to manage and check shifts",
+	"ver": "24.07.06.1818",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "c572f33c-8f61-4fc5-8668-c20b5501b1b5",
+			"application": "shiftmanager",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "50513437-85ee-485a-8639-81b2c6ea9015"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "79967ead-50da-4e92-8319-0a05864fc132",
+			"name": "operatorsAPI",
+			"description": "Operators that compose the shifts",
+			"apiGroup": null
+		},
+		{
+			"id": "6ce0d301-6e1d-4cf3-8256-8f8a5710bb54",
+			"name": "shiftsAPI",
+			"description": "Contains the shifts by day  operator  and status",
+			"apiGroup": null
+		},
+		{
+			"id": "599d0e99-c377-4b95-b645-aff1b804d22a",
+			"name": "SmoothshiftsAPI",
+			"description": "Access to script that worke with the tables shifs and operators",
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "1993bc10-10a7-40ea-8617-e6d402a7ad1c",
+			"name": "shifts",
+			"description": "Contains the shifts by day  operator  and status"
+		},
+		{
+			"id": "178cabed-ce7b-43f4-b88f-de98bc1c642e",
+			"name": "operators",
+			"description": "Operators that compose the shifts"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "f7795a05-e568-49d7-aad1-2d75e4ff810e",
+			"name": "SaveShiftSatus",
+			"description": "Save on the data base the status for each operator "
+		},
+		{
+			"id": "5bc65e50-44f9-4474-ae68-64385180b5f8",
+			"name": "GetNamesOnServiceByday",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "bebfb518-85f3-4782-826e-6df84948a523",
+			"name": "SmoothshiftScript",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "cf25634c-2af4-4a69-ba30-20eafb0b229a",
+			"name": "listeServiceOperator",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "9f88a73a-a273-4143-963f-e4c04c13ea22",
+			"name": "OperatorsList",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "791fd6a6-e801-4464-95ae-46d6d1323345",
+			"description": null,
+			"name": "ShiftManagerApp"
+		}
+	],
+	"category": [
+		{
+			"id": "1f4bbbfd-58e4-43ed-b1ff-601b3a500295",
+			"description": null,
+			"name": "SmoothStatusTiles"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "5fd3b483-0d0a-4dee-bc59-6c1fae09eb26",
+			"name": "SmoothShit",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [
+		{
+			"id": "78e065f3-f6bb-4549-b9bf-1a8d5fa56f5c",
+			"name": "Team Leader",
+			"description": "The operator that manage the shifts "
+		},
+		{
+			"id": "5a0a96b6-3045-42ae-856a-23672878ae57",
+			"name": "Operator",
+			"description": "An element of the team of operators"
+		}
+	],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "bfea0851-a619-4115-9961-4ae49ec29390",
+			"name": "GetserviceName",
+			"description": null
+		},
+		{
+			"id": "b0a96b0a-38e7-4b32-8dca-eb4d1987f1da",
+			"name": "teste1",
+			"description": null
+		},
+		{
+			"id": "5d3413df-47b9-452a-a4f6-b0561752f419",
+			"name": "operatorsConnector",
+			"description": "Operators that compose the shifts"
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

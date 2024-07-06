@@ -1,0 +1,38 @@
+{
+	"id": "1993bc10-10a7-40ea-8617-e6d402a7ad1c",
+	"createdAt": "2024-06-23T09:25:10.343Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "fcf0c076-58a4-40f8-ae9b-8539f3b5b290",
+			"fieldName": "Status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a63e852a-1b01-4f07-f491-a3fc4a829626",
+			"fieldName": "Operator_ID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f7a2ad9b-e364-458d-e215-aff62fffa560",
+			"fieldName": "Date",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "shifts",
+	"description": "Contains the shifts by day  operator  and status",
+	"ver": "24.07.04.2123",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "50513437-85ee-485a-8639-81b2c6ea9015",
+	"rolesRead": [],
+	"rolesWrite": []
+}

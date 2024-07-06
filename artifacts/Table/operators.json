@@ -1,0 +1,38 @@
+{
+	"id": "178cabed-ce7b-43f4-b88f-de98bc1c642e",
+	"createdAt": "2024-06-23T08:56:18.198Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "90bd759b-2ab8-4e8c-9ab6-b71ed2c61134",
+			"fieldName": "Operator_ID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"default": ""
+		},
+		{
+			"id": "9004cb46-b411-4bb5-d9ce-578afc6e5f98",
+			"fieldName": "Name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "87f37ad9-0f5a-4106-80b5-b95d6687c3d8",
+			"fieldName": "Category",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"default": ""
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "operators",
+	"description": "Operators that compose the shifts",
+	"ver": "24.06.23.1056",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "50513437-85ee-485a-8639-81b2c6ea9015",
+	"rolesRead": [],
+	"rolesWrite": []
+}

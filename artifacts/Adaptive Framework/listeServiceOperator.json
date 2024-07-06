@@ -1,0 +1,42 @@
+{
+	"id": "cf25634c-2af4-4a69-ba30-20eafb0b229a",
+	"createdAt": "2024-06-28T10:03:52.644Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {},
+			"form": {},
+			"table": {}
+		},
+		"fieldCatalog": [],
+		"fieldsSel": [],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "f9197457-572f-4b25-dcfe-647a72e9df4d",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "listeServiceOperator",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "b0a96b0a-38e7-4b32-8dca-eb4d1987f1da",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.06.28.1203",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "50513437-85ee-485a-8639-81b2c6ea9015",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

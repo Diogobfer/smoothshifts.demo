@@ -1,0 +1,18 @@
+{
+	"id": "bfea0851-a619-4115-9961-4ae49ec29390",
+	"createdAt": "2024-06-28T09:35:27.967Z",
+	"createdBy": "admin",
+	"settings": {
+		"scriptSel": "80c8dabe-262a-4f1c-9cff-de019e364991",
+		"scriptRun": "5bc65e50-44f9-4474-ae68-64385180b5f8",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "GetserviceName",
+	"description": null,
+	"group": null,
+	"type": "S",
+	"ver": "24.06.28.1135",
+	"disabled": false,
+	"package": "50513437-85ee-485a-8639-81b2c6ea9015"
+}
