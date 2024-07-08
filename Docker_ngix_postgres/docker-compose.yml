@@ -1,0 +1,31 @@
+services:
+  postgresdb:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER : "${POSTGRES_USER}" 
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgresdatateste:/var/lib/postgresql/data
+    networks:
+      opennetwork:
+        ipv4_address: 172.100.20.10
+  nginxproxy:
+    build: ./nginx
+    restart: always
+    ports:
+      - "80:80"
+    networks:
+      opennetwork:
+        ipv4_address: 172.100.20.80
+volumes:
+    postgresdatateste:
+
+networks:
+  opennetwork:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.100.20.0/24

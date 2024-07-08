@@ -1,0 +1,42 @@
+version: '3.9'
+services:
+  postgresdb:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER : "${POSTGRES_USER}" 
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+    ports:
+      - "5432:5432"
+    networks:
+          planet9network:
+            ipv4_address: 172.100.10.20
+    volumes:
+      - postgresdataDB:/var/lib/postgresql/data
+  openedition:
+      build: ./openedition
+      restart: always
+      ports:
+        - "8080:8080"
+      networks:
+          planet9network:
+            ipv4_address: 172.100.10.10      
+  nginxproxy:
+      build: ./nginx
+      restart: always
+      ports:
+        - "80:80"
+      networks:
+          planet9network:
+            ipv4_address: 172.100.10.80
+        
+volumes:
+  postgresdataDB:
+networks:
+      planet9network:
+        driver: bridge
+        ipam:
+          config:
+            - subnet: 172.100.10.0/24
+
+  
